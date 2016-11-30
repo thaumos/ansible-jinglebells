@@ -1,2 +1,3 @@
-[singer]
-caroller ansible_ssh_host=127.0.0.1 voice='Albert'
+[singers]
+caroller ansible_ssh_host=127.0.0.1 voice='cellos'
+cheerer ansible_ssh_host=127.0.0.1 voice='trinoids'
