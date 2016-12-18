@@ -1,0 +1,63 @@
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        Dashing through the snow
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" pitch=62
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        In a one horse open sleigh
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=61
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        O'er the fields we go
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=1
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        Laughing all the way
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=1
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        Bells on bobtail ring
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=1
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        Making spirits bright
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=1
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        What fun it is to ride and sing
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=1
+
+- hosts: caroller
+  gather_facts: no
+  vars:
+    speech: |
+        A sleighing song tonight!
+  tasks:
+    - osx_say: voice="{{voice}}" msg="{{speech}}" #pitch=1
