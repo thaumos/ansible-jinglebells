@@ -1,3 +1,5 @@
+- include: verse1.yml
+
 - include: chorus.yml
 
 - hosts: cheerer
